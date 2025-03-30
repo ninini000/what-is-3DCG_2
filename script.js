@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (this.classList.contains("clicked")) {
                 // ✅ いいね取り消し
                 localStorage.setItem("goodCount_" + id, "0");
-                this.src = "グッドマーク.png";
+                this.src = "goodmark.png";
                 this.classList.remove("clicked");
                 messagePopup.style.display = "none";
             } else {
