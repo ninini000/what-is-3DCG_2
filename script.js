@@ -78,7 +78,8 @@ sendMessage.addEventListener("click", function() {
 
     // 📍 メッセージ表示位置を調整
     thankYouMessage.style.position = "relative";
-    thankYouMessage.style.top = "-100px"; // 表示を上に移動
+    thankYouMessage.style.top = "-20px"; // 表示を上に移動
+    thankYouMessage.style.marginTop = "-10px"; // 追加微調整
 
     setTimeout(() => {
         thankYouMessage.remove();
